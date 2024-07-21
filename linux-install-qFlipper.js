@@ -1,3 +1,6 @@
+// qFlipper installation script for Linux
+// By PolyCat
+
 let dialog = require("dialog");
 let badusb = require("badusb");
 let notify = require("notification"); // Remove this if you made Flipper scilent

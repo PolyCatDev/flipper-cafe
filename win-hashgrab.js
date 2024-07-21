@@ -1,3 +1,9 @@
+// Windows password exfiltration and cracking utility
+// By PolyCat
+
+// "Grab" action is a script that exfiltrates hashed Win10 passwords
+// "Crack" action is a script ment to be runned in a Kali Linux or Parrort Linux enviroment to try cracking the password
+
 let storage = require("storage");
 let usbdisk = require("usbdisk");
 let badusb = require("badusb");
