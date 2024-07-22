@@ -17,7 +17,7 @@ let size = 18 * 1024 * 1024;
 textbox.setConfig("start", "text");
 
 let mainMenuParams = ({
-    header: "Win Hashgrab",
+    header: "Hashgrab",
     text: " Welcome to Hashgrab utility",
     button_left: "About",
     button_right: "Crack",
