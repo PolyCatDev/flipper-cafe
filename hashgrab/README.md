@@ -6,6 +6,8 @@ Windows password exfiltration and cracking utilities
 
 It's a more complex Windows password grabber and cracker. You could consider this an all-in-one script. Its main trick is that it lets you easily store the credentials files on the Flippet itself.
 
+![Screenshot of hashgrab utility main menu](https://github.com/PolyCatDev/flipper-cafe/blob/main/.github/hashgrab-main-menu.png)
+
 ### TODO
 
 - [ ] Upload option
