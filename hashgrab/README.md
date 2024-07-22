@@ -1,6 +1,6 @@
 # Hashgrab
 
-Windows password exfiltration and cracking utilities
+Windows password exfiltration and/or cracking utilitie
 
 ## What is hashgrab.js?
 
