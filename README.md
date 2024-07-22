@@ -1,6 +1,8 @@
 # (｡•̀ᴗ-)✧ Flipper Cafe
 
-Welcome to Flipper Cafe
+### Welcome to the Flipper Cafe
+
+<img width="400" src="https://raw.githubusercontent.com/PolyCatDev/flipper-cafe/main/.github/kirby-cafe.png">
 
 ## What is this?
 
