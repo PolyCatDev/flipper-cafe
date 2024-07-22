@@ -109,7 +109,6 @@ if (mainMenu === "Grab") {
     badusb.press("CTRL", "l");
     delay(300);
     badusb.println("%USERPROFILE%\save");
-    delay(500);
 
     imageMount("Transfer your files and keep Explorer focused.\nThe script is not over.");
 
