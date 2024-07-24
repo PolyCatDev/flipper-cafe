@@ -1,6 +1,6 @@
 # (｡•̀ᴗ-)✧ Flipper Cafe
 
-### Welcome to the Flipper Cafe
+### The coziest Flipper Zero database
 
 <img width="400" src="https://raw.githubusercontent.com/PolyCatDev/flipper-cafe/main/.github/kirby-cafe.png">
 
