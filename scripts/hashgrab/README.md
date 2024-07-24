@@ -4,22 +4,24 @@ Windows password exfiltration and/or cracking utilitie
 
 ## What is hashgrab.js?
 
-You could consider this an all-in-one script. Its main trick is that it lets you easily store the credentials files on the Flippet itself.
+You could consider this the all-in-one version of the script. Its main trick is that it lets you easily store the credentials files on the Flippet itself.
 
 <img width=600 src="https://raw.githubusercontent.com/PolyCatDev/flipper-cafe/main/.github/hashgrab-menu.png" alt="Screenshot of hashgrab utility main menu">
 
 
-### TODO
+#### TODO
 
-- [ ] Upload option
+- [ ] Upload option in script
 
 ## What is hashgrab-badusb?
 
-It's a simpler BadUSB version of the script. This version's main appeal is that it can deployed via Bluetooth using BadKB and general simplicity.
+It's a simpler BadUSB version of the script. This version only grabs the passwords.
 
-## TODO
+This version's main appeal is that it can deployed via Bluetooth using BadKB and its general simplicity.
 
-- [ ] Upload Version
+#### TODO
+
+- [ ] Upload option in script
 
 ## What is hashgrab-legacy?
 
