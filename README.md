@@ -11,3 +11,5 @@ Currently there are only some JS and BadUSB scripts. More things will be added w
 ## Contributing 
 
 If you wish to contribute your own Flipper stuff, PRs are welcome. Just add your stuff to the relevant folder or make a new one if needed. 
+
+If you are contributing something you and/or more people made, feel free to sign yourself(s) at the top in a comment.
