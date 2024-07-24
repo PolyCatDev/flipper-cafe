@@ -1,4 +1,3 @@
-# (｡•̀ᴗ-)✧ Flipper Cafe Website
+# Flipper Cafe Website
 
-## What is this?
-This is the code for the [Flipper Cafe](https://github.com/PolyCatDev/flipper-cafe/tree/main) website.
+Cool! You found where the [Flipper Cafe](https://github.com/PolyCatDev/flipper-cafe/tree/main) website is hosted :3
