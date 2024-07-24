@@ -1,12 +1,8 @@
 # (｡•̀ᴗ-)✧ Flipper Cafe
 
-### The coziest Flipper Zero database
+**The coziest Flipper Zero database**
 
 <img width="400" src="https://raw.githubusercontent.com/PolyCatDev/flipper-cafe/main/.github/kirby-cafe.png">
-
-## What is this?
-
-This is a repo for all of PolyCat's Flipper Zero related stuff
 
 ## What can I find?
 
