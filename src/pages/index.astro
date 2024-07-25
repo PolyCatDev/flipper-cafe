@@ -1,0 +1,53 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+
+import { Image } from "astro:assets";
+import kirbySwim from "../assets/kirby-swimming.gif";
+---
+
+<Layout title="Flipper Cafe">
+    <Header title="(｡•̀ᴗ-)✧ Flipper Cafe" />
+    <main>
+        <article>
+            Welcome to the work in progress
+            <a href="https://github.com/PolyCatDev/flipper-cafe">Flipper Cafe</a
+            >
+            website
+        </article>
+        <section>
+            <h2>Here's kirby for getting here early</h2>
+            <Image src={kirbySwim} alt="kirby swimming" loading="eager" />
+        </section>
+    </main>
+</Layout>
+
+<style>
+    img {
+        width: 80vw;
+        height: auto;
+        border-radius: 10px;
+        border: solid 3px black;
+    }
+
+    @media only screen and (min-width: 470px) {
+        img {
+            width: 60vw;
+        }
+    }
+
+    @media only screen and (min-width: 800px) {
+        img {
+            width: 40vw;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: darkolivegreen;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+</style>

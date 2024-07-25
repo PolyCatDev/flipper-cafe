@@ -1,0 +1,30 @@
+---
+interface Props {
+    title: string;
+}
+const { title } = Astro.props;
+
+const decription = "The coziest Flipper Zero database";
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content={decription} />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image" href="/favicon.png" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{title}</title>
+    </head>
+    <body>
+        <slot />
+    </body>
+</html>
+
+<style>
+    body {
+        text-align: center;
+        background-color: #ddd;
+    }
+</style>
