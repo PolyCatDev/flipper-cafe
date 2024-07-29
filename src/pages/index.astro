@@ -1,53 +1,96 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Header from "../components/Header.astro";
 
-import { Image } from "astro:assets";
-import kirbySwim from "../assets/kirby-swimming.gif";
+// import BKG from "../assets/green_landscape.webp";
+
+const Title = "Flipper Cafe";
+const Fonts = [
+    {
+        href: "https://fonts.googleapis.com/css2?family=Pacifico&display=swap",
+        rel: "stylesheet",
+    },
+];
+
+const Link = "https://github.com/PolyCatDev/flipper-cafe";
 ---
 
-<Layout title="Flipper Cafe">
-    <Header title="(｡•̀ᴗ-)✧ Flipper Cafe" />
+<Layout title={Title} fonts={Fonts}>
     <main>
-        <article>
-            Welcome to the work in progress
-            <a href="https://github.com/PolyCatDev/flipper-cafe">Flipper Cafe</a
-            >
-            website
-        </article>
-        <section>
-            <h2>Here's kirby for getting here early</h2>
-            <Image src={kirbySwim} alt="kirby swimming" loading="eager" />
-        </section>
+        <h1 class="shadow">Flipper Cafe</h1>
+        <h3 class="shadow">The coziest Flipper Zero database</h3>
+        <a href="https://github.com/PolyCatDev/flipper-cafe"
+            ><button>Get the files</button></a
+        >
     </main>
 </Layout>
 
 <style>
-    img {
-        width: 80vw;
-        height: auto;
+    body {
+        background-color: rgb(33, 37, 34);
+        background-image: url(../assets/green_landscape.webp);
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    main {
+        padding-top: 20vh;
+        color: #ddd;
+    }
+
+    h1 {
+        font-family: Pacifico;
+        font-size: 700%;
+        margin: 10px;
+    }
+
+    h3 {
+        font-size: 180%;
+        padding: 10px 0 10px 0;
+    }
+
+    @media (max-width: 642px) {
+        h1 {
+            font-size: 600%;
+        }
+
+        h3 {
+            font-size: 160%;
+        }
+    }
+    @media (max-width: 553px) {
+        h1 {
+            font-size: 500%;
+        }
+
+        h3 {
+            font-size: 120%;
+        }
+    }
+
+    @media (max-width: 464px) {
+        h1 {
+            font-size: 400%;
+        }
+
+        h3 {
+            font-size: 100%;
+        }
+    }
+
+    .shadow {
+        text-shadow: 3px 3px 5px rgb(23, 22, 24);
+    }
+
+    button {
+        font-size: 120%;
+        font-weight: bold;
+        background-color: #ddd;
         border-radius: 10px;
-        border: solid 3px black;
-    }
-
-    @media only screen and (min-width: 470px) {
-        img {
-            width: 60vw;
-        }
-    }
-
-    @media only screen and (min-width: 800px) {
-        img {
-            width: 40vw;
-        }
-    }
-
-    a {
-        text-decoration: none;
-        color: darkolivegreen;
-    }
-
-    a:hover {
-        text-decoration: underline;
+        padding: 10px 20px 10px 20px;
+        margin: 10px;
+        box-shadow: 0 0 10px black;
     }
 </style>

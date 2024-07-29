@@ -1,8 +1,9 @@
 ---
 interface Props {
     title: string;
+    fonts?: Array<{ href: string; rel: string }>;
 }
-const { title } = Astro.props;
+const { title, fonts } = Astro.props;
 
 const decription = "The coziest Flipper Zero database";
 ---
@@ -13,8 +14,9 @@ const decription = "The coziest Flipper Zero database";
         <meta charset="UTF-8" />
         <meta name="description" content={decription} />
         <meta name="viewport" content="width=device-width" />
-        <link rel="icon" type="image" href="/favicon.png" />
+        <link rel="icon" type="image" href="/favicon.ico" />
         <meta name="generator" content={Astro.generator} />
+        {fonts && fonts.map((font) => <link href={font.href} rel={font.rel} />)}
         <title>{title}</title>
     </head>
     <body>
@@ -22,9 +24,23 @@ const decription = "The coziest Flipper Zero database";
     </body>
 </html>
 
-<style>
+<style is:global>
+    * {
+        font-family: Courier, monospace;
+        font-size: 100%;
+        margin: 0;
+    }
+
     body {
         text-align: center;
-        background-color: #ddd;
     }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
 </style>
