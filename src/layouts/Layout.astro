@@ -6,7 +6,6 @@ interface Props {
 const { title, font } = Astro.props;
 
 const decription = "The coziest Flipper Zero database";
-const fediverse = "https://sunny.garden/@PolyCat";
 ---
 
 <!doctype html>
@@ -21,7 +20,7 @@ const fediverse = "https://sunny.garden/@PolyCat";
         <title>{title}</title>
     </head>
     <body>
-        <a rel="me" href={fediverse}></a>
+        <a rel="me" href="https://sunny.garden/@PolyCat" aria-label="Hidden Mastodon validation link"></a>
         <slot />
     </body>
 </html>
