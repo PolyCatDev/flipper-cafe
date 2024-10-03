@@ -5,8 +5,8 @@
 <img width="400" src="https://raw.githubusercontent.com/PolyCatDev/flipper-cafe/main/.github/kirby-cafe.png">
 
 ## What can I find?
-
-Currently there are only some JS and BadUSB scripts. More things will be added with time.
+- IR Codes
+- BadUSB and JS scripts
 
 ## How do I download the whole DB?
 ```
